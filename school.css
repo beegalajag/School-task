@@ -1,0 +1,361 @@
+ /*@media print {
+body {-webkit-print-color-adjust: exact;}
+}*/
+/*html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}*/
+/*.main{
+	margin: 20px 75px 10px 100px;
+}*/
+img.img-responsive{
+	    width: 100px;
+    	
+}
+.school-header{
+	    display: inline-flex;
+    	text-align: center;
+    	width: 100%;
+    	padding-top: 25px;
+}
+.school_heading{
+	    padding-left: 200px;
+	    color: #34495e !important;
+
+}
+/*.container-fluid{
+	    margin-top: 30px;
+}*/
+label{
+	border: 1px solid  #d3d9e2;
+    width: 190px;
+    text-align: center;
+    color: #3498db !important;
+    height: 60px;
+    padding-top: 10px;
+    margin-bottom: 0px !important;
+    font-weight: 0  !importants;
+}
+label p{
+	color: #34495e !important;
+	font-weight: 700 !important;
+}
+.row{
+	column-span:all;
+	display: flex;
+	/*border: 1px solid  #d3d9e2;*/
+}
+span.ctct_details{
+	    border: 1px solid #d3d9e2;
+    width: 380px;
+    padding-left: 20px;
+    height: 70px;
+    padding-top: 2px;
+    color: #3498db !important;
+}
+span.ctct_details p{
+	color: #22313F !important;
+	padding-top: 5px;
+    font-size: large;
+}
+.address_details{
+	    border: 1px solid #d3d9e2;
+    width: 100%;
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #3498db !important;
+}
+.address_details p{
+	color: #34495e !important;
+	padding-top: 5px;
+    font-weight: 700;
+    font-size: large;
+}
+#address h4{
+	color: #e74c3c !important;
+}
+.line{
+	border: 1px solid grey;
+	margin-top: 20px;
+}
+.height{
+	width: 85px;
+    height: 85px;
+    border: 3px dashed black;
+    border-radius: 50%;
+    float: left;
+}
+.height p{
+	    margin: 21px;
+}
+.student_details{
+	    padding-top: 15px;
+	    float: left;
+	    width: 100%;
+}
+p.heading{
+	    padding-top: 10px;
+    color: #26A65B !important;
+    font-weight: 700;
+}
+.weight{
+	width: 85px;
+    height: 85px;
+    border: 3px dashed black;
+    border-radius: 50%;
+    float: left;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+.weight p{
+	margin-top: 32px;
+}
+.attendance{
+	width: 85px;
+    height: 85px;
+    border: 3px dashed black;
+    border-radius: 50%;
+    float: left;
+    padding-left: 20px;
+    margin-left: 100px;
+
+}
+.attendance p.heading{
+		margin-left: -12px;
+	    padding-top: 15px;
+
+}
+.attendance p{
+	margin-top: 30px;
+}
+.image{
+	    float: left;
+    margin-left: 450px;
+
+}
+.image img{
+	    width: 111px;
+    	height: 111px;
+}
+.student{
+	    clear: left;
+	    padding-top: 3%;
+}
+.std_name{
+	width:65%;
+	float: left;
+	border: 1px solid;
+    color: #DCC6E0 !important;
+    background-color: #21033e !important;
+    padding-left: 30px;
+}
+.std_name p,h1{
+	color: #DCC6E0 !important;
+}
+.standard p,h1 {
+	color: #DCC6E0 !important;
+}
+.standard{
+	float: left;
+	margin-left: 5px;
+    width: 34%;
+    padding-left: 30px;
+    border: 1px solid;
+    color: #C8F7C5 !important;
+    background-color: #96281B !important;
+}
+.std_details{
+	clear: left;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 16px;
+}
+/*span{
+	    border: 1px solid #d3d9e2;
+    height: 65px;
+    text-align: center;
+    color: blue;
+    padding-top: 10px;
+}
+span p{
+	color: black;
+    font-weight: 700;
+    padding-top: 5px;
+}*/
+.contact{
+	    padding-top: 25px;
+	        padding-left: 15px;
+    padding-right: 15px;
+}
+/*.span12{
+	border: 1px solid #d3d9e2;
+    height: 75px;
+     color: blue;
+    padding-top: 10px;
+}
+.col-sm-4 p{
+	color: black;
+    font-weight: 900;
+    padding-top: 5px;
+
+}*/
+.std_address{
+	 padding-top: 25px;
+	        padding-left: 15px;
+    padding-right: 15px;
+}
+/*.col-sm-12{
+	border: 1px solid #d3d9e2;
+    height: 75px;
+     color: blue;
+    padding-top: 10px;
+}
+.col-sm-12 p{
+	color: black;
+    font-weight: 800;
+    padding-top: 5px;
+}*/
+thead{
+	    background-color: #061b3a !important;
+	    color: #EEEEEE !important;
+}
+th.table_heading{
+	background-color: #061b3a !important;
+    color: #EEEEEE !important;
+    text-align: center;
+}
+/*table.table.table-bordered thead{
+	background-color: #061b3a ;
+    color: #EEEEEE !important;
+}*/
+.table-bordered{
+	width: 100%;
+}
+img.book{
+	width: 30px;
+}
+table tr{
+   height: 50px;
+}
+table tbody{
+	font-size: large;
+}
+.marks{
+	text-align: center;
+}
+.buttons{
+	padding-left: 30px;
+}
+.grades{
+	padding-top: 50px;
+	position: relative;
+	left: 37%;
+    padding-left: 200px;
+}
+.grades th{
+	border: 1px solid #d3d9e2;
+    width: 150px;
+    padding-left: 10px;
+    color: #4183D7 !important;
+}
+.grades td{
+	    border: 1px solid  #d3d9e2 ;
+    width: 50px;
+    padding-left: 10px;
+    color: #26A65B !important;
+}
+/*.col-sm-2{
+	border: 1px solid  #d3d9e2;
+	color: blue;
+	font-weight: 700;
+}
+.col-sm-1{
+	border: 1px solid  #d3d9e2;
+	color: green;
+	font-weight: 700;
+}*/
+.skill.heading{
+	clear: left;
+    padding-top: 15px;
+}
+table.table.table-bordered{
+	    margin-top: 20px;
+}
+table.table.table-bordered td{
+	text-align: center;
+}
+.skill_btns{
+	position: absolute;
+    left: 36%;
+}
+.btn{
+	width:130px;
+}
+.toppers{
+	margin-top: 100px;
+}
+/*table.table_analysis tbody tr th td{
+	border: 1px solid  #d3d9e2;
+}*/
+th.head {
+	border: 1px solid  #d3d9e2;
+	text-align: center;
+	width:140px;
+}
+ td.data{
+ 	border: 1px solid  #d3d9e2;
+	text-align: center;
+	width:450px;
+	color: #3498DB !important;
+	font-size: 11px;
+	font-style: italic;
+ }
+ .note{
+ 	text-align: center;
+ 	color: #26A65B !important;
+ 	padding-top: 30px;
+    font-weight: 700;
+    text-decoration: underline ;
+ }
+ .note p{
+ 	color: #26A65B !important;
+ }
+
+ .queries p{
+	text-indent: 120px;
+ }
+ .query_line{
+ 	border:2px solid;
+ 	margin-top: 20px;
+ }
+ .remark{
+ 	padding-top: 63px;
+ }
+ .remark_line{
+ 	border:1px solid #d3d9e2;
+ 	margin-top: 20px;
+ }
+ .signature_box div{
+ 	/*width: 275px;*/width: 250px;
+    margin-left: 75px;
+    padding-left: 90px;
+    margin-top: 50px;
+    height: 75px;
+    border: 1px solid #d3d9e2;
+    float: left;
+    /*margin-left: 20px;*/
+ }
+ .signatures{
+ 	
+ 	clear: left;
+    padding-top: 20px;
+    font-weight: 700;
+    display: flex;
+ }
+ .signatures p{
+ 	    width: 275px;
+    margin-left: 42px;
+    padding-left: 90px;
+    color: #3498DB !important;
+ }
